@@ -1,0 +1,92 @@
+/* Estilos Generales */
+body {
+  background-color: #f4f4f9;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+h3 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Imagen */
+img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para la lista de información */
+.list-group-item {
+  background-color: #ecf0f1;
+  border: none;
+  color: #34495e;
+  font-size: 16px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.list-group-item:hover {
+  background-color: #bdc3c7;
+}
+
+/* Formulario */
+form {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+  color: #34495e;
+  font-weight: bold;
+}
+
+.form-control {
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+}
+
+.form-control:focus {
+  border-color: #2980b9;
+  box-shadow: none;
+}
+
+.btn-primary {
+  background-color: #2980b9;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #3498db;
+}
+
+/* Sección de Párrafos */
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+/* Sección de Texto */
+h3 {
+  font-size: 24px;
+  border-bottom: 3px solid #3498db;
+  padding-bottom: 10px;
+}
+
+/* Espaciado entre filas */
+.row {
+  margin-bottom: 30px;
+}
+
+/* Estilo para que las columnas se vean mejor en pantallas pequeñas */
+@media (max-width: 768px) {
+  .col-md-4 {
+    margin-bottom: 20px;
+  }
+}
